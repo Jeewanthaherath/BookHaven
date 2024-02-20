@@ -14,7 +14,9 @@ const App = () => {
       <Route path='/books/details/:id' element={<ShowBooks />} />
       <Route path='/books/edit/:id' element = {<EditBooks />} />
       <Route path='/books/delete/:id' element = {<DeleteBooks />} />
+    
     </Routes>
+    
   )
 }
 
